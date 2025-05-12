@@ -26,8 +26,9 @@ body {
 /* header part start */
 .navbar-collapse {
 
-	padding-left: 170px !important;
+    padding-left: 170px !important;
 }
+
 .nav-item {
     padding: 10px 30px !important;
 }
@@ -70,31 +71,260 @@ body {
 
 
 
-.link .navvar{
+.link .navvar {
     padding: 10px 10px;
     border-radius: 50px;
     border: 1px solid bisque;
     color: white;
 }
 
-.navveer{
+.navveer {
     padding: 10px 10px;
     border-radius: 50px;
     border: 1px solid bisque;
     background: #93F2FF;
     color: black;
 }
-.navveer:hover{
+
+.navveer:hover {
     background: #2a2a30;
     color: white;
 }
 
 
 
-.box{
+.box {
     width: 300px;
     height: 100px;
     margin-top: 100px;
 }
 
 /* bannerimgpart end *
+
+/* section2nd start */
+#baannerpart {
+    padding: 100px 0;
+}
+
+.banner {
+    background: url(../images/Banner\ Area.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    height: 764px;
+
+
+}
+
+.bannerleft {
+    width: 60%;
+}
+
+.bannerrigth {
+    width: 40%;
+}
+
+.bannerflex {
+    display: flex;
+}
+
+.bannerleft {
+    padding-left: 60px;
+    padding-top: 110px;
+}
+
+.bannerleft h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.bannerleft h1 {
+    color: white;
+    font-size: 74px;
+    width: 652px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.Scroll {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.JohnDue {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #D9D9D9;
+    color: white;
+}
+
+.John {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #D9D9D9;
+    background: #93F2FF;
+    color: black;
+}
+
+
+.bannerrigth img {
+    display: block !important;
+}
+
+/* section2nd start */
+
+/* section 3rd start */
+#counterpart {
+    padding: 100px 0;
+    background: blue;
+}
+
+/* section 3rd end */
+/* section 4th start */
+#timedownpart {
+    padding: 100px 0;
+    background: rgb(81, 165, 42);
+}
+
+#danger {
+
+    padding: 100px 0;
+    background: rebeccapurple;
+}
+#dangerer {
+
+    padding: 100px 0;
+    background: rgb(153, 51, 136);
+
+}
+
+.card{
+   margin: 20px 0;
+}
+
+/* btn */
+/* From Uiverse.io by cssbuttons-io */ 
+
+
+
+.btner {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 30px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btner:active,
+.btner:hover {
+  outline: 0;
+}
+
+.btner span {
+  background-color: rgb(5, 6, 45);
+  padding: 23px 95px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.btner:hover span {
+  background: none;
+}
+
+.btner:active {
+  transform: scale(0.9);
+}
+
+/* typed.js */
+
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.btns {
+	display: block;
+	width: 400px;
+	margin: 0;
+	padding: 30px 0 0 30px;
+}
+.btns a {
+	display: inline-block;
+	margin-left: 5px;
+}
+.btns a:first-child{margin-left:0}
+.btn {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+a .btn {
+	cursor: pointer;
+	border: 1.5px solid #ecf0f1;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px;
+	list-style-type: none;
+	transition: all .3s;
+}
+
+.btn:hover {
+	background: #ecf0f1;
+	color: #34495e;
+}
+/* section 4th end */
+/* nomadananpart */
+#nomadananpart{
+    padding: 200px 0;
+}
